@@ -1,0 +1,353 @@
+body{
+    background: #f1f3f6 !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 16px !important;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.lockscreen.middle-box {
+    width: 200px;
+    padding-top: 110px;
+}
+.loginscreen.middle-box {
+    width: 300px;
+}
+.loginColumns {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 20px 20px 20px;
+}
+.passwordBox {
+    max-width: 460px;
+    margin: 0 auto;
+    padding: 100px 20px 20px 20px;
+}
+.btn {
+    border-radius: 0% !important;
+}
+
+.btn {
+    border-radius: 3px;
+    font-size: inherit;
+}
+
+.form-control {
+    background-color: white;
+    border: 1px solid #9b9999;
+    border-radius: 3px;
+    color: inherit;
+    display: block;
+    padding: 6px 12px;
+    outline: none!important;
+    width: 100%;
+}
+.form-control {
+    font-size: 0.9rem;
+}
+
+.col-form-label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+}
+
+.ibox-content {
+    clear: both;
+}
+.ibox-content {
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+}
+
+.full-width {
+    width: 25% !important;
+    background: black!important;
+    border-color: black!important;
+    margin-left: 75%;
+    display: block;
+    color: white;
+}
+
+.full-width:hover{
+    background: white!important;
+    color: black;
+}
+
+.middle-box {
+    max-width: 400px;
+    z-index: 100;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.middle-box h1 {
+    font-size: 100px;
+    font-weight: 100;
+}
+
+.btn:focus {
+    box-shadow: none!important;
+  }
+
+input:focus, textarea:focus, select:focus{
+    outline: none !important;
+    box-shadow: none!important;
+}
+.form-control:focus {
+    border-color: black;
+}
+.form-control
+{
+    height: 30px!important;
+}
+
+.btn-dark{
+    width: 100%;
+    font-size: 15px;
+    background: #294f75!important;
+    border-color: #294f75!important;
+    color: white;
+    border-radius: 5px!important;
+}
+.btn-dark:hover{
+    background: #1ab394 !important;
+    color: white;
+    border-color:#1ab394!important;
+    border-radius: 5px!important;
+}
+.image{
+    height: 40px!important;
+}
+.uprofile{
+    border-radius: 5px;
+    padding: 40px!important;
+}
+.col-form-label{
+    font-size: 14px;
+    color: #414141;
+}
+.footer{
+    margin-top: 100px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.bg-white{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.sidebar-dark-primary{
+    background: #294f75;
+    color: white;
+}
+.sidebar{
+    height: calc(100% - (3.5rem + 1px));
+    //overflow-y: initial;
+    padding-bottom: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    padding-top: 0!important;
+}
+.main-sidebar{
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+.brand-link{
+    width: 249px!important;
+    border:0!important;
+    color: white!important;
+    border-color: white!important;
+}
+
+.nav  > li > a {
+    color: white !important;
+    /color: #cfcdcd !important;
+    font-weight: 900;
+    display: block;
+    font-size: 16px;
+    border-bottom: 1px solid white;
+    margin: 0px;
+    height: 40px;
+    padding: 5px 15px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.nav  > li > a:hover{
+    background: #1ab394!important;
+    color: white!important;
+    font-size: 20px;
+}
+
+
+.nav-sidebar .nav-item>.nav-link {
+    margin-bottom: 0!important;
+    border-radius: 0!important;
+}
+
+
+.nav > li.active :only-child {
+    //background: #456898;
+    background: #1ab394;
+    color: white !important;
+}
+.nav-icon {
+    margin-right: 10px!important;
+    font-size: 16px!important;
+    font-weight: 900;
+}
+.table th {
+    padding: 10px!important;
+    vertical-align: top;
+    color: #0c525d;
+    font-weight: bold;
+    font-size: 14px;
+    border-top: 1px solid #dee2e6;
+}
+.table td {
+    padding: 0!important;
+    padding-left: 10px!important;
+    padding-top: 5px!important;
+    padding-right: 10px!important;
+    padding-bottom: 5px!important;
+    border-top: 1px solid #dee2e6;
+}
+.homepage{
+    text-align: center!important;
+    color: #456898!important;
+}
+.card-body-home{
+    padding: 0!important;
+    padding-top: 15px!important;
+}
+.homebtn{
+    border-radius: 0!important;
+}
+.homebtn:hover{
+    background: #456898!important;
+    border: #456898!important;
+    color: white;
+    border-radius: 0!important;
+}
+.dropdown-menu-right{
+    background: white;
+    color: #456898!important;
+}
+.dropdown-menu-right .nav-item{
+    color: #456898!important;
+}
+.dropdown-menu-right .nav-item:hover{
+    background: #f8f5f5;
+    color: #0a0e14;
+}
+
+.nav2h{
+    padding: 0;
+    display: none;
+}
+
+
+
+
+@media (max-width: 640px) {
+   .main-header{
+       display: none;
+   }
+   .main-sidebar{
+       display: none;
+   }
+   .nav2h{
+       display: block;
+       border-bottom: 1px solid #f5f2f2 !important;
+   }
+   .minibtn{
+       border: none;
+   }
+   .mini-nav{
+     border: none;
+     border-radius: 0;
+   }
+   .nav2 .nav-link{
+    background: #294f75;
+    color: white!important;
+    padding: 5px 20px;
+    border-bottom:1px solid white ;
+   }
+    .sideNavOpen {
+        height: 100%;
+        width: 240px;
+        /margin-top: 60px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2000;
+        overflow: scroll;
+        //font-size: 16px;
+        //padding-top: 40px;
+        background-color: #294f75;
+        /transition: 0.2s;
+        padding-bottom:100px;
+        box-shadow: 0 0 8px 0 rgba(57, 78, 234, 0.1);
+        
+    }
+    .sideNavClose {
+        /transition: 0.2s;
+        height: 100%;
+        width: 0px;
+        /margin-top: 65px;
+        position: fixed;
+        top: 0;
+        font-size: 20px;
+        left: 0;
+        z-index: 10;
+        overflow-x: hidden;
+        background-color: #294f75;
+        box-shadow: 0 0 8px 0 rgba(57, 78, 234, 0.1);
+    }
+    .ContentOverlayOpen {
+        display: block;
+        position: fixed;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 7;
+        right: 0;
+        bottom: 0;
+        cursor: pointer;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .ContentOverlayClose {
+        display: none;
+    }
+    
+
+
+}
